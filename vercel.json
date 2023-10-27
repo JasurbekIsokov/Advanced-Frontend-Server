@@ -1,9 +1,10 @@
 {
   "version": 2,
+  "name": "production",
   "builds": [
     {
-      "sro": "./index.js",
-      "Use": "@vercel/node"
+      "src": "./index.js",
+      "use": "@vercel/node"
     }
     ], "routes": [
       {
